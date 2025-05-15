@@ -165,7 +165,7 @@ const Portfolio = () => {
                 <img src={project.image} alt={project.title} />
                 <div className="project-overlay">
                   <div className="project-category">{project.category}</div>
-                  <a href="#" className="view-project">View Project</a>
+                  <a href="https://thomas-folio.netlify.app/" className="view-project">View Project</a>
                 </div>
               </div>
               <div className="project-info">
@@ -235,10 +235,10 @@ const Portfolio = () => {
             <span>DEV</span>FOLIO
           </div>
           <div className="social-links">
-            <a href="#" className="social-icon">GitHub</a>
+            {/* <a href="#" className="social-icon">GitHub</a>
             <a href="#" className="social-icon">LinkedIn</a>
             <a href="#" className="social-icon">Twitter</a>
-            <a href="#" className="social-icon">Dribbble</a>
+            <a href="#" className="social-icon">Dribbble</a> */}
           </div>
           <p className="copyright">© {new Date().getFullYear()} Alex Morgan. All rights reserved.</p>
         </div>
