@@ -37,9 +37,11 @@ const Portfolio = () => {
   const skills = [
     { name: "React", level: 90 },
     { name: "JavaScript", level: 85 },
-    { name: "Node.js", level: 75 },
-    { name: "SCSS/CSS", level: 80 },
-    { name: "UI/UX Design", level: 70 }
+    { name: "HTML", level: 95 },
+    { name: "Git", level: 80 },
+    { name: "MongoDB", level: 70 },
+    { name: "Laravel", level: 75 },
+    { name: "Rest API", level: 75 }
   ];
 
   useEffect(() => {
@@ -83,7 +85,7 @@ const Portfolio = () => {
         <div className="hero-content">
           <h1>
             <span className="greeting">Hello, I'm</span>
-            <span className="name">Alex Morgan</span>
+            <span className="name">Thomas PY</span>
             <span className="title">Full Stack Developer</span>
           </h1>
           <p className="tagline">Creating digital experiences that inspire</p>
@@ -108,24 +110,24 @@ const Portfolio = () => {
           </div>
           <div className="about-text">
             <h3>Who am I?</h3>
-            <p>I'm a passionate Full Stack Developer with 5+ years of experience creating modern web applications. I specialize in building responsive, user-friendly interfaces and robust backend systems.</p>
+            <p>I'm a passionate Full Stack Developer with 2+ years of experience creating modern web applications. I specialize in building responsive, user-friendly interfaces and robust backend systems.</p>
             <p>My approach combines technical expertise with creative problem-solving to deliver solutions that exceed expectations.</p>
             <div className="personal-info">
               <div className="info-item">
                 <span className="label">Name:</span>
-                <span className="value">Alex Morgan</span>
+                <span className="value">Thomas P Y</span>
               </div>
               <div className="info-item">
                 <span className="label">Email:</span>
-                <span className="value">alex@example.com</span>
+                <span className="value">thomaspy3630@gmail.com</span>
               </div>
               <div className="info-item">
                 <span className="label">Location:</span>
-                <span className="value">San Francisco, CA</span>
+                <span className="value">Kerala, India</span>
               </div>
               <div className="info-item">
                 <span className="label">Availability:</span>
-                <span className="value">Freelance & Full-time</span>
+                <span className="value"> Full-time</span>
               </div>
             </div>
             <a href="#contact" className="btn primary">Download Resume</a>
@@ -143,10 +145,9 @@ const Portfolio = () => {
             <div className="skill-item" key={index}>
               <div className="skill-info">
                 <h3>{skill.name}</h3>
-                <span>{skill.level}%</span>
-              </div>
-              <div className="skill-bar">
-                <div className="skill-progress" style={{ width: `${skill.level}%` }}></div>
+                <div className="skill-bar">
+                 
+                </div>
               </div>
             </div>
           ))}
